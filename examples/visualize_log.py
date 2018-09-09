@@ -3,7 +3,6 @@ import json
 
 import matplotlib.pyplot as plt
 
-
 def visualize_log(filename, figsize=None, output=None):
     with open(filename, 'r') as f:
         data = json.load(f)
